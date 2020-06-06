@@ -12,8 +12,8 @@ exports.about = (req, res) => {
   });
 };
 
-exports.thing = (req, res) => {
-  res.render(`${viewPath}/AndrewArpin`, {
+exports.contact = (req, res) => {
+  res.render(`${viewPath}/contact`, {
     pageTitle: 'Andrew Arpin Info'
   });
 };
