@@ -13,7 +13,7 @@ exports.about = (req, res) => {
 };
 
 exports.thing = (req, res) => {
-  res.render(`${viewPath}/thing`, {
-    pageTitle: 'Thing'
+  res.render(`${viewPath}/AndrewArpin`, {
+    pageTitle: 'Andrew Arpin Info'
   });
 };
